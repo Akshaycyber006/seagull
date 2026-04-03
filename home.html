@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seagull Clearing & Forwarding Agencies Pvt. Ltd. | Customs Clearance & Freight Forwarding</title>
+    <link rel="icon" type="image/jpeg" href="asserts/image/icon.jpeg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Additional CSS for background video */
+        .hero {
+            background: none !important;
+        }
+        
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        
+        .hero-background video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translateX(-50%) translateY(-50%);
+            object-fit: cover;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="asserts/image/logo.jpeg" alt="Seagull Logo" class="logo-img">
+                    </a>
+                </div>
+                <nav class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li><a href="home.html" class="nav-link active">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About Us</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+                        <li><a href="branches.html" class="nav-link">Branches</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search..." class="search-input">
+                        <button class="search-btn">
+                            <img src="asserts/image/title.png" alt="Search" class="search-icon-img">
+                        </button>
+                    </div>
+                    <a href="contact.html" class="cta-button">Get a Quote</a>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <video autoplay muted loop playsinline>
+                <source src="asserts/videos/movie.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Reliable Customs Clearance & Global Freight Forwarding Solutions
+                </h1>
+                <p class="hero-subtitle">
+                    Fast. Compliant. On-Time Logistics Across Air, Sea & Land.
+                </p>
+
+                <div class="hero-features">
+                    <div class="feature-badge">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Licensed Customs Broker</span>
+                    </div>
+                    <div class="feature-badge">
+                        <i class="fa-solid fa-globe"></i>
+                        <span>Global Network</span>
+                    </div>
+                    <div class="feature-badge">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>On-Time Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p class="section-subtitle">Your Trusted Partner in Global Trade</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-file-shield"></i>
+                    </div>
+                    <h3>Licensed Customs Broker</h3>
+                    <p>Fully licensed and certified customs brokerage services ensuring compliance with all regulations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3>End-to-End Logistics</h3>
+                    <p>Complete supply chain solutions from pickup to final delivery, handling every detail.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h3>Global Network</h3>
+                    <p>Strong partnerships with agents worldwide for seamless international shipping.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3>On-Time Delivery</h3>
+                    <p>Committed to timely deliveries with real-time tracking and proactive updates.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h3>Compliance & Documentation</h3>
+                    <p>Expert handling of all customs documentation and regulatory requirements.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support to handle your queries and emergencies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Snapshot -->
+    <section class="services-preview" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive Logistics Solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-warehouse"></i>
+                    </div>
+                    <h3>Customs Clearance</h3>
+                    <p>Import and export clearance with expert handling of all documentation and regulations.</p>
+                    <a href="services.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-plane"></i>
+                    </div>
+                    <h3>Air Freight</h3>
+                    <p>Fast and reliable air cargo services to major airports worldwide.</p>
+                    <a href="services.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-ship"></i>
+                    </div>
+                    <h3>Sea Freight</h3>
+                    <p>Full container (FCL) and less than container load (LCL) shipping solutions.</p>
+                    <a href="services.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <h3>Road Transport</h3>
+                    <p>Domestic and cross-border road freight services for flexible delivery options.</p>
+                    <a href="services.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                    </div>
+                    <h3>Warehousing</h3>
+                    <p>Secure storage solutions with inventory management and distribution services.</p>
+                    <a href="services.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-file-contract"></i>
+                    </div>
+                    <h3>Import & Export Documentation</h3>
+                    <p>Complete documentation support for smooth cross-border trade operations.</p>
+                    <a href="services.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Served -->
+    <section class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Industries We Serve</h2>
+                <p class="section-subtitle">Specialized Solutions for Various Sectors</p>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <h3>Manufacturing</h3>
+                    <p>Raw materials and finished goods logistics</p>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fa-solid fa-shopping-bag"></i>
+                    </div>
+                    <h3>E-commerce</h3>
+                    <p>Cross-border retail and fulfillment solutions</p>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fa-solid fa-pills"></i>
+                    </div>
+                    <h3>Pharmaceuticals</h3>
+                    <p>Temperature-controlled and compliant shipping</p>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <h3>Automotive</h3>
+                    <p>Parts and vehicle logistics solutions</p>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                    <h3>FMCG</h3>
+                    <p>Fast-moving consumer goods distribution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let us handle your cargo while you focus on your business.</h2>
+                <p>Get a free quote for your logistics requirements today.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Request Clearance</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <a href="home.html">
+                            <img src="asserts/image/logo.jpeg" alt="Seagull Logo" class="logo-img">
+                        </a>
+                    </div>
+                    <p>Your trusted partner for customs clearance and global freight forwarding solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="branches.html">Branches</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Customs Clearance</a></li>
+                        <li><a href="services.html">Air Freight</a></li>
+                        <li><a href="services.html">Sea Freight</a></li>
+                        <li><a href="services.html">Road Transport</a></li>
+                        <li><a href="services.html">Warehousing</a></li>
+                        <li><a href="services.html">Import/Export Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Beach House, Room No. 3, 2nd Floor, No. 20, Second Lane Beach, Chennai, Tamilnadu - 600001</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 44 2524 9086</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span><a href="mailto:seagullcfa@seagullclearing.net" class="email-link">seagullcfa@seagullclearing.net</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Seagull Clearing & Forwarding Agencies Pvt. Ltd. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
